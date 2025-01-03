@@ -1,2 +1,26 @@
-# Elasticsearch_NarutoCharactors
-- This project is an implementation of a comprehensive search system for Naruto characters’ information. Naruto is a Japanese manga series that dives into the narrative of Naruto Uzumaki, a young ninja with aspirations of earning recognition from his peers and achieving the honored title of Hokage, the village leader. The primary goal of this search system is to provide insights and detailed information about Naruto characters to fans who are interested in an accessible platform to learn more about the information that they might not know about Naruto characters. Furthermore, it is beneficial for individuals who are unfamiliar with Naruto and would like to discover more about Naruto characters. There are a total of 105 Naruto characters in this search system with information about their names, descriptions, affiliations, background information, abilities, and pictures that the users can search for. This Naruto characters' search system strives to create a user-friendly and informative platform that caters to both dedicated fans and those new to the Naruto universe.
+# Naruto Character Search System (Elasticsearch)
+
+Naruto Character Search System is a comprehensive search application designed to provide detailed information about characters from the Naruto universe. Utilizing Elasticsearch, this system allows users to efficiently search and retrieve data on various Naruto characters, catering to both long-time fans and newcomers interested in exploring the series.
+
+### Features
+- Comprehensive Database: Contains information on 105 Naruto characters, including names, descriptions, affiliations, backgrounds, abilities, and images.
+- Efficient Search: Leverages Elasticsearch to provide quick and relevant search results.
+- User-Friendly Interface: Designed with a simple and intuitive interface for easy navigation.
+- Informative Profiles: Each character profile offers in-depth details to enhance user understanding.
+
+### Usage
+- Search: Enter a character's name or related keywords into the search bar to retrieve relevant profiles.
+- Browse: Explore the list of characters to discover more about the Naruto universe.
+- Detailed View: Click on a character's name to view their full profile, including background, abilities, and affiliations.
+
+### Project Structure
+- ```data.json```: Contains the dataset of Naruto characters.
+- ```elasticsearch_loader.py```: Script to load data into Elasticsearch.
+- ```search_app.py```: Main application script.
+- ```templates/```: Directory containing HTML templates for the web interface.
+- ```static/```: Directory for static files like CSS and images.
+  
+#### Contributing
+Contributions are welcome! If you'd like to enhance the database, improve the search functionality, or add new features, please fork the repository and submit a pull request.
+
+
